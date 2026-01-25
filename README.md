@@ -1,16 +1,10 @@
-# React + Vite
+# 포트폴리오 사이
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React로 제작한 개인 포트폴리오 웹 사이트
 
-Currently, two official plugins are available:
+  -  섹션별 컴포넌트 분리를 통한 구조적 설계
+  -  스크롤 이동 기반 네비게이션 구현
+  -  그라데이션 애니메이션을 활용한 시각적 포인트
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+vercel 배포
+https://portfolio-iota-red-6x0ro2nqn6.vercel.app/
