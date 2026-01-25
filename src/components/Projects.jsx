@@ -1,0 +1,179 @@
+import { projectImg } from "../data/projectsimg.js";
+import "../styles/projects.css";
+
+export default function Projects() {
+  return (
+    <section className="projects section-flow" id="projects">
+      <h2>Projects</h2>
+
+      <div className="project-list">
+        <div className="project-card">
+          <div className="project-img">
+            <img src={projectImg(1)} alt="병원 사이트" />
+          </div>
+
+          <div className="project-content">
+            <div className="style-flex">
+              <h1 className="project-num">01</h1>
+              <h1 className="project-title">병원 사이트</h1>
+            </div>
+            <p>
+              Vanilla JavaScript 기반 병원 웹 사이트 메인 페이지
+              <br />
+              헤더 네비게이션에 Bootstrap 부분 적용
+            </p>
+            <ul>
+              <li>슬라이더 / 버튼 등 인터랙션 구현</li>
+              <li>미디어쿼리를 사용한 반응형 웹</li>
+              <li>카카오맵 API 연동</li>
+            </ul>
+            <div className="style-flex">
+              <span className="projecttag projecttag-main">HTML</span>
+              <span className="projecttag projecttag-css">CSS</span>
+              <span className="projecttag projecttag-js">JS</span>
+              <span className="projecttag projecttag-bootstrap">Bootstrap</span>
+            </div>
+            <div className="style-flex">
+              <a
+                href="https://cau-hospital.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sitebtn"
+              >
+                Go
+              </a>
+              <a
+                href="https://github.com/BangSeojin/CAUhospital"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sitebtn"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <div className="project-img">
+            <img src={projectImg(2)} alt="감정 일기장" />
+          </div>
+
+          <div className="project-content">
+            <div className="style-flex">
+              <h1 className="project-num">02</h1>
+              <h1 className="project-title">감정 일기장</h1>
+            </div>
+            <p>
+              React 학습 중 제작한 로컬스토리지를 활용한 감정 기록 웹 사이트
+            </p>
+            <ul>
+              <li>일기 작성 / 수정 / 삭제 기능 구현</li>
+              <li>LocalStorage를 활용한 데이터 저장</li>
+            </ul>
+            <div className="style-flex">
+              <span className="projecttag projecttag-main">React</span>
+            </div>
+            <div className="style-flex">
+              <a
+                href="https://emotion-diary-gilt-theta.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sitebtn"
+              >
+                Go
+              </a>
+              <a
+                href="https://github.com/BangSeojin/EmotionDiary"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sitebtn"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <div className="project-img">
+            <img src={projectImg(3)} alt="Todo List" />
+          </div>
+
+          <div className="project-content">
+            <div className="style-flex">
+              <h1 className="project-num">03</h1>
+              <h1 className="project-title">Todo List</h1>
+            </div>
+            <p>React 학습 중 제작한 할 일 관리 웹 사이트</p>
+            <ul>
+              <li>할 일 추가 / 삭제 / 완료 체크 기능 구현</li>
+              <li>상태 관리 Hook을 활용한 Todo 상태 관리</li>
+            </ul>
+            <div className="style-flex">
+              <span className="projecttag projecttag-main">React</span>
+            </div>
+            <div className="style-flex">
+              <a
+                href="https://todo-list-seven-gilt-17.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sitebtn"
+              >
+                Go
+              </a>
+              <a
+                href="https://github.com/BangSeojin/TodoList"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sitebtn"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <div className="project-img">
+            <img src={projectImg(4)} alt="포트폴리오" />
+          </div>
+
+          <div className="project-content">
+            <div className="style-flex">
+              <h1 className="project-num">04</h1>
+              <h1 className="project-title">Portfolio Site</h1>
+            </div>
+            <p>React로 제작한 개인 포트폴리오 웹 사이트</p>
+            <ul>
+              <li>섹션별 컴포넌트 분리를 통한 구조적 설계</li>
+              <li>스크롤 이동 기반 네비게이션 구현</li>
+              <li>그라데이션 애니메이션을 활용한 시각적 포인트</li>
+              <div className="style-flex">
+                <span className="projecttag projecttag-main">React</span>
+              </div>
+            </ul>
+            <div className="style-flex">
+              <a
+                href="https://portfolio-iota-red-6x0ro2nqn6.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sitebtn"
+              >
+                Go
+              </a>
+              <a
+                href="https://github.com/BangSeojin/CAUhospital"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sitebtn"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

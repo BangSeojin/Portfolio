@@ -1,0 +1,25 @@
+#namebox {
+  width: 100%;
+  background: linear-gradient(180deg, aliceblue, aliceblue, white);
+  background-size: 10%;
+  max-width: none;
+  padding: 0;
+}
+
+.name-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.name-title {
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(120deg, #3b6fd8, #b5d3fe, #3b6fd8);
+  background-size: 200%;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: colorFlow 8s ease infinite;
+}

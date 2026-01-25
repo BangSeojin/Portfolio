@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "KhnpHandot";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHD.woff")
+    format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  scroll-behavior: smooth;
+  --orange: #ffad7a;
+  --blue: #96b1ff;
+  --yellow: #ffe596;
+  --purple: #cb96ff;
+  --blue-light: #eaf4ff;
+  --gray-light: #f5f6f8;
+  --text-dark: #2b2b2b;
+  --text-gray: #bebebe;
+}
+
+body {
+  font-family: "KhnpHandot", sans-serif;
+  background: white;
+  color: var(--text-dark);
+}
+
+main {
+  padding-top: 80px;
+}
+
+section {
+  padding: 80px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}

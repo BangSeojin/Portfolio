@@ -1,0 +1,33 @@
+.section-flow {
+  position: relative;
+}
+
+.section-flow::after {
+  content: "";
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 0;
+  height: 3px;
+
+  background: linear-gradient(
+    120deg,
+    rgba(108, 161, 253, 0.9),
+    rgba(255, 255, 255, 0.9),
+    rgba(108, 161, 253, 0.9)
+  );
+  background-size: 300% 300%;
+  animation: colorFlow 8s ease infinite;
+}
+
+@keyframes colorFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

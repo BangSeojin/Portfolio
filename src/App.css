@@ -1,0 +1,23 @@
+h1 {
+  font-size: 42px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+h3 {
+  font-size: 20px;
+  color: var(--blue);
+}
+
+.tag {
+  padding: 12px 20px;
+  background: var(--blue-light);
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 10px;
+}

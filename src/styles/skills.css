@@ -1,0 +1,19 @@
+.skill-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 40px 0;
+}
+
+.explan {
+  font-size: 12px;
+  color: var(--text-gray);
+}
+
+#etc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
