@@ -163,7 +163,7 @@ export default function Projects() {
                 Go
               </a>
               <a
-                href="https://github.com/BangSeojin/CAUhospital"
+                href="https://github.com/BangSeojin/Portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="sitebtn"
