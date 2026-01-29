@@ -22,10 +22,17 @@
 .contact-list li {
   display: flex;
   align-items: center;
-  gap: 10px;
   margin-bottom: 20px;
+}
+
+.contact-list li > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-dark);
 }
 
 .contact-list img {
   line-height: 3px;
+  margin-right: 10px;
 }

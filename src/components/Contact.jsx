@@ -16,8 +16,14 @@ export default function Contact() {
             bang710109@gmail.com
           </li>
           <li>
-            <img src={iconImg(3)} />
-            GitHub account
+            <a
+              href="https://github.com/BangSeojin"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={iconImg(3)} alt="GitHub" />
+              GitHub account
+            </a>
           </li>
         </ul>
       </div>
