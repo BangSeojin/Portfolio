@@ -26,6 +26,12 @@ export default function Skills() {
         <h3>Tools & Environment</h3>
         <ul className="skill-list">
           <li>
+            <span className="tag">Figma</span>
+          </li>
+          <li>
+            <span className="tag">Photoshop</span>
+          </li>
+          <li>
             <span className="tag">Vite</span>
             <span className="explan">React 개발 환경 구성</span>
           </li>
@@ -39,6 +45,9 @@ export default function Skills() {
           <li>
             <span className="tag">Github</span>
             <span className="explan">소스 코드 관리 및 프로젝트 공유</span>
+          </li>
+          <li>
+            <span className="tag">Slack</span>
           </li>
         </ul>
       </div>
@@ -80,9 +89,6 @@ export default function Skills() {
           </li>
           <li>
             <span className="tag">OpenCV</span>
-          </li>
-          <li>
-            <span className="tag">Photoshop</span>
           </li>
           <li>
             <span className="tag">Illustrator</span>

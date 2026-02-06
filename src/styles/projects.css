@@ -86,6 +86,10 @@
   background: var(--purple);
 }
 
+.projecttag-figma {
+  background: var(--green);
+}
+
 .sitebtn {
   text-decoration: none;
   color: inherit;

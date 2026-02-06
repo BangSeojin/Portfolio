@@ -32,8 +32,17 @@ export default function Projects() {
               <span className="projecttag projecttag-css">CSS</span>
               <span className="projecttag projecttag-js">JS</span>
               <span className="projecttag projecttag-bootstrap">Bootstrap</span>
+              <span className="projecttag projecttag-figma">Figma</span>
             </div>
             <div className="style-flex">
+              <a
+                href="https://www.figma.com/design/44vuPVKOh278Ujgg6sbDD8/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4--%EB%B3%91%EC%9B%90-%EC%82%AC%EC%9D%B4%ED%8A%B8?node-id=0-1&t=4NiPSWi98a5DjC1J-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sitebtn"
+              >
+                Figma
+              </a>
               <a
                 href="https://cau-hospital.vercel.app/"
                 target="_blank"
