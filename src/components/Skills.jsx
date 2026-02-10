@@ -47,6 +47,9 @@ export default function Skills() {
             <span className="explan">소스 코드 관리 및 프로젝트 공유</span>
           </li>
           <li>
+            <span className="tag">Visual Studio</span>
+          </li>
+          <li>
             <span className="tag">Slack</span>
           </li>
         </ul>
