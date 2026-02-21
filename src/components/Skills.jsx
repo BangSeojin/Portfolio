@@ -20,6 +20,9 @@ export default function Skills() {
           <li>
             <span className="tag">React</span>
           </li>
+          <li>
+            <span className="tag">jQuery</span>
+          </li>
         </ul>
       </div>
       <div>
@@ -43,7 +46,7 @@ export default function Skills() {
             <span className="explan">배포 환경 구성</span>
           </li>
           <li>
-            <span className="tag">Github</span>
+            <span className="tag">Git</span>
             <span className="explan">소스 코드 관리 및 프로젝트 공유</span>
           </li>
           <li>
