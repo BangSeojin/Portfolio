@@ -92,15 +92,7 @@ export default function Projects() {
             </div>
             <div className="style-flex">
               <a
-                href="https://www.figma.com/design/zqe96PLmuLlSMq3MLCvjG9/%EB%9E%91%EC%9D%B4%EB%84%A4-%EC%8B%9D%ED%83%81?node-id=0-1&t=ZFCuaDEpPVTwiCZi-1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="sitebtn"
-              >
-                Figma
-              </a>
-              <a
-                href="https://rangstable.vercel.app/"
+                href="https://brandhome.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="sitebtn"
@@ -108,7 +100,7 @@ export default function Projects() {
                 Go
               </a>
               <a
-                href="https://github.com/BangSeojin/Rangstable"
+                href="https://github.com/BangSeojin/Cozy-Brand-Home"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="sitebtn"
