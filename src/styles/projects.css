@@ -91,7 +91,11 @@
 }
 
 .projecttag-jquery {
-  background: var(--orange);
+  background: var(--yellow);
+}
+
+.projecttag-gsap {
+  background: var(--purple);
 }
 
 .sitebtn {

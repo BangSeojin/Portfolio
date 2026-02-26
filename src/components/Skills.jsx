@@ -6,7 +6,7 @@ export default function Skills() {
     <section id="skills" className="section-flow">
       <h2>Skills</h2>
       <div>
-        <h3>Core Skills</h3>
+        <h3>Core</h3>
         <ul className="skill-list">
           <li>
             <span className="tag">HTML</span>
@@ -20,8 +20,19 @@ export default function Skills() {
           <li>
             <span className="tag">React</span>
           </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Library & Framework</h3>
+        <ul className="skill-list">
           <li>
             <span className="tag">jQuery</span>
+          </li>
+          <li>
+            <span className="tag">Bootstrap</span>
+          </li>
+          <li>
+            <span className="tag">GSAP</span>
           </li>
         </ul>
       </div>
@@ -37,9 +48,6 @@ export default function Skills() {
           <li>
             <span className="tag">Vite</span>
             <span className="explan">React 개발 환경 구성</span>
-          </li>
-          <li>
-            <span className="tag">Bootstrap</span>
           </li>
           <li>
             <span className="tag">Vercel</span>

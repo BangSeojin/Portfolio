@@ -61,6 +61,63 @@ export default function Projects() {
             </div>
           </div>
         </div>
+        <div className="project-card">
+          <div className="project-img">
+            <img src={projectImg(6)} alt="가구 브랜드 사이트" />
+          </div>
+
+          <div className="project-content">
+            <div className="style-flex">
+              <h1 className="project-num">02</h1>
+              <h1 className="project-title">가구 브랜드 사이트</h1>
+            </div>
+            <p>GSAP를 활용한 모션을 적용한 웹 사이트</p>
+            <ul>
+              <li>
+                스크롤 위치에 따라 섹션이 자연스럽게 등장하도록 인터랙션 구현
+              </li>
+              <li>GSAP을 활용해 부드러운 전환 효과와 튀어나오는 모션 적용</li>
+              <li>마우스 움직임에 반응하는 3D 이미지 효과 구현</li>
+              <li>
+                PC / 태블릿 / 모바일 화면 크기에 맞춘 반응형 레이아웃 설계
+              </li>
+            </ul>
+            <p>작업인원: 1인</p>
+            <p>작업기간: 3일</p>
+            <div className="style-flex">
+              <span className="projecttag projecttag-main">HTML</span>
+              <span className="projecttag projecttag-css">CSS</span>
+              <span className="projecttag projecttag-js">JS</span>
+              <span className="projecttag projecttag-gsap">GSAP</span>
+            </div>
+            <div className="style-flex">
+              <a
+                href="https://www.figma.com/design/zqe96PLmuLlSMq3MLCvjG9/%EB%9E%91%EC%9D%B4%EB%84%A4-%EC%8B%9D%ED%83%81?node-id=0-1&t=ZFCuaDEpPVTwiCZi-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sitebtn"
+              >
+                Figma
+              </a>
+              <a
+                href="https://rangstable.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sitebtn"
+              >
+                Go
+              </a>
+              <a
+                href="https://github.com/BangSeojin/Rangstable"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sitebtn"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
 
         <div className="project-card">
           <div className="project-img">
@@ -69,7 +126,7 @@ export default function Projects() {
 
           <div className="project-content">
             <div className="style-flex">
-              <h1 className="project-num">02</h1>
+              <h1 className="project-num">03</h1>
               <h1 className="project-title">병원 사이트</h1>
             </div>
             <p>
@@ -127,7 +184,7 @@ export default function Projects() {
 
           <div className="project-content">
             <div className="style-flex">
-              <h1 className="project-num">03</h1>
+              <h1 className="project-num">04</h1>
               <h1 className="project-title">감정 일기장</h1>
             </div>
             <p>
@@ -170,7 +227,7 @@ export default function Projects() {
 
           <div className="project-content">
             <div className="style-flex">
-              <h1 className="project-num">04</h1>
+              <h1 className="project-num">05</h1>
               <h1 className="project-title">Todo List</h1>
             </div>
             <p>React 학습 중 제작한 할 일 관리 웹 사이트</p>
@@ -211,7 +268,7 @@ export default function Projects() {
 
           <div className="project-content">
             <div className="style-flex">
-              <h1 className="project-num">05</h1>
+              <h1 className="project-num">06</h1>
               <h1 className="project-title">Portfolio Site</h1>
             </div>
             <p>React로 제작한 개인 포트폴리오 웹 사이트</p>
