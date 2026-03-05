@@ -8,7 +8,7 @@ export const webProjects = [
     image: webImg(5),
     previewVideo: projectVideo(5),
     members: "1인",
-    period: "4일",
+    period: "5일",
     pages: "메인페이지",
     tools: "HTML / CSS / JS / REACT / GSAP",
     buttons: [
