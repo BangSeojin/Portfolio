@@ -17,7 +17,11 @@ export const webProjects = [
         link: "https://seojin-portfolio-neon.vercel.app/",
         blank: true,
       },
-      { label: "Code", link: "#", blank: true },
+      {
+        label: "Code",
+        link: "https://github.com/BangSeojin/Portfolio",
+        blank: true,
+      },
     ],
   },
 
