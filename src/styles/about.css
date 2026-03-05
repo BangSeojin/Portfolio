@@ -1,0 +1,104 @@
+* {
+  list-style: none;
+}
+
+.about > h1 {
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.about-inner {
+  display: flex;
+  gap: 10rem;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-left > img {
+  width: 31rem;
+}
+
+.name {
+  margin-bottom: 3rem;
+}
+
+.name > h3 {
+  margin-bottom: 0.5rem;
+}
+
+.name > h3:nth-child(1) {
+  font-weight: 700;
+}
+
+.name > h3:nth-child(2) {
+  color: var(--fontsub);
+}
+
+.introduce > p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.introduce > p > span {
+  color: var(--spaceblue);
+}
+
+.info h3 {
+  font-weight: 700;
+}
+
+.date {
+  font-size: 0.8rem;
+  color: var(--fontsub);
+}
+
+.infobox {
+  margin-bottom: 3rem;
+}
+
+.infobox > h3 {
+  margin-bottom: 1rem;
+  color: var(--spaceblue);
+}
+
+.info > .infobox p {
+  margin-bottom: 0.5rem;
+}
+
+.skill > h3 {
+  margin: 2rem 0 1rem 0;
+  font-weight: 700;
+}
+
+.subskill > h3 {
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.subskill > p {
+  font-size: 0.8rem;
+  color: var(--fontsub);
+  margin-top: 0.5rem;
+}
+
+.subskill-list {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .about-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-left > img {
+    width: 20rem;
+  }
+}

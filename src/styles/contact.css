@@ -1,0 +1,28 @@
+.contact > h1 {
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.contact-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-inner > h2 {
+  margin: 5rem 0;
+  font-weight: 700;
+}
+
+.contact-inner > h2 > span {
+  font-weight: 700;
+}
+
+.contact-img {
+  width: 35rem;
+  position: relative;
+}
+
+.contact-img > img {
+  width: 100%;
+}

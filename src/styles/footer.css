@@ -1,0 +1,23 @@
+.footer p,
+a {
+  color: var(--fontsub);
+}
+
+a:hover {
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    gap: 1rem;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
