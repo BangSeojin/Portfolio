@@ -111,7 +111,7 @@ export default function Contact() {
 
       <div className="contact-inner">
         <h2 ref={titleRef}>
-          함께 작은 세상을 가꾸어 나갈 <span ref={spanRef}>웹 퍼블리셔</span>가
+          함께 작은 세상을 가꾸어 나갈 <span ref={spanRef}>프론트엔드</span>가
           필요하신가요?
         </h2>
 

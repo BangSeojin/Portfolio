@@ -51,7 +51,7 @@ export default function Hero() {
           <h1>안녕하세요!</h1>
           <p>코드로 작은 세계를 가꾸는</p>
           <p>
-            <span>웹 퍼블리셔, 방서진 </span>입니다
+            <span>프론트엔드, 방서진 </span>입니다
           </p>
         </div>
         <div className="content-img">

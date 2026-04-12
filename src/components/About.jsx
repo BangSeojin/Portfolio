@@ -74,7 +74,7 @@ export default function About() {
             <p>
               앞으로도 차근차근 경험을 쌓아가며,
               <br />
-              하나의 화면에도 의미를 담고자 노력하는 <span>웹 퍼블리셔</span>로
+              하나의 화면에도 의미를 담고자 노력하는 <span>프론트엔드</span>로
               성장하고자 합니다.
             </p>
           </div>
@@ -135,7 +135,7 @@ export default function About() {
           <p>학업 과정에서 기초 학습</p>
         </div>
         <ul className="subskill-list">
-          <li>MySQL</li>
+          <li>SQL</li>
           <li>C</li>
           <li>C++</li>
           <li>C#</li>
