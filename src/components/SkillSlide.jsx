@@ -25,7 +25,7 @@ export default function SkillSlide() {
 
       gsap.to(groups, {
         x: -groupWidth,
-        duration: 20,
+        duration: 15,
         ease: "linear",
         repeat: -1,
       });

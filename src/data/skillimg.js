@@ -10,6 +10,9 @@ import SkillImg9 from "../assets/about_img_09.png";
 import SkillImg10 from "../assets/about_img_10.png";
 import SkillImg11 from "../assets/about_img_11.png";
 import SkillImg12 from "../assets/about_img_12.png";
+import SkillImg13 from "../assets/about_img_13.png";
+import SkillImg14 from "../assets/about_img_14.png";
+import SkillImg15 from "../assets/about_img_15.png";
 
 export const skillImages = [
   { src: SkillImg1, alt: "HTML5" },
@@ -24,4 +27,7 @@ export const skillImages = [
   { src: SkillImg10, alt: "Github" },
   { src: SkillImg11, alt: "VS Code" },
   { src: SkillImg12, alt: "Slack" },
+  { src: SkillImg13, alt: "Next.js" },
+  { src: SkillImg14, alt: "TypeScript" },
+  { src: SkillImg15, alt: "Tailwind CSS" },
 ];

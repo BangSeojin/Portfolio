@@ -91,22 +91,22 @@ export const webProjects = [
   },
   {
     id: 4,
-    title: "감정 일기장",
+    title: "Todo List",
     image: webImg(4),
     previewVideo: projectVideo(4),
     members: "1인",
-    period: "5일",
+    period: "4일",
     pages: "메인페이지",
-    tools: "HTML / CSS / JS / REACT",
+    tools: "REACT / NEXT.JS / TYPESCRIPT / TAILWIND",
     buttons: [
       {
         label: "Go",
-        link: "https://emotion-diary-gilt-theta.vercel.app/",
+        link: "https://todolist-snowy-one.vercel.app/",
         blank: true,
       },
       {
         label: "Code",
-        link: "https://github.com/BangSeojin/EmotionDiary",
+        link: "https://github.com/BangSeojin/TodoList_Next.js",
         blank: true,
       },
     ],
