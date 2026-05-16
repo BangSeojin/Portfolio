@@ -3,6 +3,7 @@ import Video2 from "../assets/video2.mp4";
 import Video3 from "../assets/video3.mp4";
 import Video4 from "../assets/video4.mp4";
 import Video5 from "../assets/video5.mp4";
+import Video6 from "../assets/video6.mp4";
 
 export function projectVideo(videoId) {
   switch (videoId) {
@@ -16,6 +17,8 @@ export function projectVideo(videoId) {
       return Video4;
     case 5:
       return Video5;
+    case 6:
+      return Video6;
     default:
       return null;
   }

@@ -3,6 +3,7 @@ import Img2 from "../assets/webimg2.png";
 import Img3 from "../assets/webimg3.png";
 import Img4 from "../assets/webimg4.png";
 import Img5 from "../assets/webimg5.png";
+import Img6 from "../assets/webimg6.png";
 
 export function webImg(imgId) {
   switch (imgId) {
@@ -16,6 +17,8 @@ export function webImg(imgId) {
       return Img4;
     case 5:
       return Img5;
+    case 6:
+      return Img6;
     default:
       return null;
   }

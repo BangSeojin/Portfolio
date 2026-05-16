@@ -13,6 +13,7 @@ import SkillImg12 from "../assets/about_img_12.png";
 import SkillImg13 from "../assets/about_img_13.png";
 import SkillImg14 from "../assets/about_img_14.png";
 import SkillImg15 from "../assets/about_img_15.png";
+import SkillImg16 from "../assets/about_img_16.png";
 
 export const skillImages = [
   { src: SkillImg1, alt: "HTML5" },
@@ -30,4 +31,5 @@ export const skillImages = [
   { src: SkillImg13, alt: "Next.js" },
   { src: SkillImg14, alt: "TypeScript" },
   { src: SkillImg15, alt: "Tailwind CSS" },
+  { src: SkillImg16, alt: "Claude AI" },
 ];

@@ -111,4 +111,26 @@ export const webProjects = [
       },
     ],
   },
+  {
+    id: 6,
+    title: "My Little Chef",
+    image: webImg(6),
+    previewVideo: projectVideo(6),
+    members: "1인",
+    period: "2일",
+    pages: "메인 / 레시피 상세 / 요리 완료 페이지",
+    tools: "CLAUDE AI / REACT / NEXT.JS / TYPESCRIPT / TAILWIND",
+    buttons: [
+      {
+        label: "Go",
+        link: "https://my-little-chef-khaki.vercel.app/",
+        blank: true,
+      },
+      {
+        label: "Code",
+        link: "https://github.com/BangSeojin/My-Little-Chef",
+        blank: true,
+      },
+    ],
+  },
 ];
